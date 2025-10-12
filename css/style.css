@@ -1,0 +1,129 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.corpo {
+    background-color: #ffffff;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 100%;
+}
+
+.cabecalho {
+    background-color: #000000;
+}
+
+.cabecalho__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.cabecalho__secao {
+    display: flex;
+    gap: 20px;
+}
+
+.cabecalho__icones {
+    text-decoration: none;
+    color: #176ba9;
+    font-size: 25px;
+}
+
+.cabecalho_imagem {
+    width: 10.3rem;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+}   
+
+.conteudo__secao__descricao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.conteudo__titulo {
+    font-family: Copperplate, Papyrus, fantasy;
+    font-weight: 600;
+    width: 60%;
+    text-align: center;
+}
+
+.conteudo__descricao {
+    font-family: Copperplate, Papyrus, fantasy;
+    width: 60%;
+}
+
+.recuo__texto {
+    text-indent: 4em;
+}
+
+.conteudo_secao_interacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.conteudo__video {
+    width: 720px;
+    padding: 4rem 5rem 0 5rem;
+    
+}
+
+.botao__site {
+    text-decoration: none;
+    color: #000000;
+    padding: 0.9rem;
+    background-color: #176ba9;
+    border-radius: 10px;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.secao__botao {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 1rem;
+}
+
+.botao__conteudo {
+    text-decoration: none;
+    color: #000000;
+    padding: 0.9rem;
+    background-color: #176ba9;
+    border-radius: 10px;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-weight: bold;
+}
+
+.rodape {
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape__texto {
+    font-family: Copperplate, Papyrus, fantasy;
+    color: #ffffff;
+}
+
+.rodape__link {
+ text-decoration: none;
+ color: #176ba9;
+}
+
+.rodape__link:hover {
+    color: #ffffff;
+}
