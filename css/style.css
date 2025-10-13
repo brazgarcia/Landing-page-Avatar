@@ -75,19 +75,28 @@
 
 .conteudo__video {
     width: 720px;
-    padding: 4rem 5rem 0 5rem;
+    margin: 4rem 5rem 0 5rem;
+    border: 5px solid #176ba9;
+    border-radius: 10px;
     
 }
 
 .botao__site {
     text-decoration: none;
     color: #000000;
-    padding: 0.9rem;
-    background-color: #176ba9;
+    padding: 0.7rem 0.9rem;
+    background-color: #ffffff;
+    border: 5px solid #176ba9;
     border-radius: 10px;
     font-family: Copperplate, Papyrus, fantasy;
     font-size: 20px;
     font-weight: bold;
+}
+
+.botao__site:hover {
+    color: #ffffff;
+    background-color: #176ba9;
+    
 }
 
 .secao__botao {
@@ -100,11 +109,17 @@
 .botao__conteudo {
     text-decoration: none;
     color: #000000;
-    padding: 0.9rem;
-    background-color: #176ba9;
+    padding: 0.7rem 0.9rem;
+    background-color: #ffffff;
+    border: 5px solid #176ba9;
     border-radius: 10px;
     font-family: Copperplate, Papyrus, fantasy;
     font-weight: bold;
+}
+
+.botao__conteudo:hover {
+    color: #ffffff;
+    background-color: #176ba9;
 }
 
 .rodape {
