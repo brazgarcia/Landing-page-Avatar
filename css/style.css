@@ -34,7 +34,7 @@
 }
 
 .cabecalho_imagem {
-    width: 10.3rem;
+    width: 9rem;
 }
 
 .conteudo {
@@ -59,7 +59,8 @@
 
 .conteudo__descricao {
     font-family: Copperplate, Papyrus, fantasy;
-    width: 60%;
+    width: 40rem;
+    margin: 0 0 0 5rem;
 }
 
 .recuo__texto {
@@ -74,11 +75,10 @@
 }
 
 .conteudo__video {
-    width: 720px;
+    width: 32rem;
     margin: 4rem 5rem 0 5rem;
     border: 5px solid #176ba9;
     border-radius: 10px;
-    
 }
 
 .botao__site {
