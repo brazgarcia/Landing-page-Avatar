@@ -7,8 +7,6 @@
 .corpo {
     background-color: #ffffff;
     box-sizing: border-box;
-    overflow: hidden;
-    height: 100%;
 }
 
 .cabecalho {
@@ -46,21 +44,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 15px;
+    width: 60%;
+    padding: 1% 6% 0% 6%;
+    gap: 10px;
 }
 
 .conteudo__titulo {
     font-family: Copperplate, Papyrus, fantasy;
     font-weight: 600;
-    width: 60%;
     text-align: center;
 }
 
 .conteudo__descricao {
     font-family: Copperplate, Papyrus, fantasy;
-    width: 40rem;
-    margin: 0 0 0 5rem;
+    padding: 0 3% 0 3%;
 }
 
 .recuo__texto {
@@ -71,20 +68,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 25px;
+    width: 40%;
+    gap: 19px;
 }
 
 .conteudo__video {
-    width: 32rem;
-    margin: 4rem 5rem 0 5rem;
+    width: 100%;
+    margin: 7% 30% 2% 20%;
     border: 5px solid #176ba9;
-    border-radius: 10px;
+    border-radius: 10px;    
 }
 
 .botao__site {
     text-decoration: none;
     color: #000000;
-    padding: 0.7rem 0.9rem;
+    padding: 2% 2.5%;
     background-color: #ffffff;
     border: 5px solid #176ba9;
     border-radius: 10px;
@@ -95,21 +93,21 @@
 
 .botao__site:hover {
     color: #ffffff;
-    background-color: #176ba9;
-    
+    background-color: #176ba9; 
 }
 
 .secao__botao {
     display: flex;
     justify-content: space-between;
-    gap: 50px;
-    padding: 1rem;
+    width: 100%;
+    gap: 15px;
+    padding: 3% 30% 2% 20%;
 }
 
 .botao__conteudo {
     text-decoration: none;
     color: #000000;
-    padding: 0.7rem 0.9rem;
+    padding: 2% 2.5%;
     background-color: #ffffff;
     border: 5px solid #176ba9;
     border-radius: 10px;
@@ -141,4 +139,23 @@
 
 .rodape__link:hover {
     color: #ffffff;
+}
+
+@media (max-width: 1200px) {
+    .conteudo {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .conteudo__secao__descricao, .conteudo_secao_interacao {
+        width: 90%;
+    }
+
+    .conteudo__video {
+        margin: 7% 0% 2% 0%;
+    }
+
+    .secao__botao {
+        padding: 2% 0% 1% 0%;
+    }
 }
