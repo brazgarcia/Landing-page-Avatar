@@ -38,14 +38,15 @@
 .conteudo {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }   
 
 .conteudo__secao__descricao {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 60%;
-    padding: 1% 6% 0% 6%;
+    justify-content: center;
+    width: 55%;
+    padding: 10px 3px 0 45px;
     gap: 10px;
 }
 
@@ -67,16 +68,16 @@
 .conteudo_secao_interacao {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
     width: 40%;
     gap: 19px;
 }
 
 .conteudo__video {
-    width: 100%;
-    margin: 7% 30% 2% 20%;
+    width: 90%;
     border: 5px solid #176ba9;
-    border-radius: 10px;    
+    border-radius: 10px;;  
+    margin: 12px 10 px 0 0;
 }
 
 .botao__site {
@@ -99,9 +100,9 @@
 .secao__botao {
     display: flex;
     justify-content: space-between;
-    width: 100%;
     gap: 15px;
-    padding: 3% 30% 2% 20%;
+    width: 90%;
+    padding: 10px 15px 10px 15px;
 }
 
 .botao__conteudo {
@@ -149,6 +150,7 @@
 
     .conteudo__secao__descricao, .conteudo_secao_interacao {
         width: 90%;
+        padding: 2% 0% 4% 0%;
     }
 
     .conteudo__video {
